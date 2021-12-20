@@ -146,7 +146,7 @@ class Tableau1 extends Phaser.Scene{
         this.initKeyboard()
 
         //appel de la fonction pour trouver les postions et la taille
-        this.objectPS(this.gling)
+        this.objectPS()
     }
 
     //position objet
