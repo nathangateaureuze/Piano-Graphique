@@ -108,34 +108,34 @@ class Tableau1 extends Phaser.Scene{
         this.glingc.visible = false
 
         //création puis disparition des animaux
-        this.ane = this.add.image(Phaser.Math.Between(100,1131),1130,'ane')
+        this.ane = this.add.image(Phaser.Math.Between(100,2060),1130,'ane')
         this.ane.setScale(0.3)
         this.ane.visible=false
-        this.cheval = this.add.image(Phaser.Math.Between(100,1131),1100,'cheval')
+        this.cheval = this.add.image(Phaser.Math.Between(100,2060),1100,'cheval')
         this.cheval.setScale(0.3)
         this.cheval.visible=false
-        this.chien = this.add.image(Phaser.Math.Between(100,1131),1155,'chien')
+        this.chien = this.add.image(Phaser.Math.Between(100,2060),1155,'chien')
         this.chien.setScale(0.15)
         this.chien.visible=false
-        this.chevre = this.add.image(Phaser.Math.Between(100,1131),1146,'chevre')
+        this.chevre = this.add.image(Phaser.Math.Between(100,2060),1146,'chevre')
         this.chevre.setScale(0.15)
         this.chevre.visible=false
-        this.cochon = this.add.image(Phaser.Math.Between(100,1131),1170,'cochon')
+        this.cochon = this.add.image(Phaser.Math.Between(100,2060),1170,'cochon')
         this.cochon.setScale(0.23)
         this.cochon.visible=false
-        this.coq = this.add.image(Phaser.Math.Between(100,1131),1159,'coq')
+        this.coq = this.add.image(Phaser.Math.Between(100,2060),1159,'coq')
         this.coq.setScale(0.18)
         this.coq.visible=false
-        this.lapin = this.add.image(Phaser.Math.Between(100,1131),1216,'lapin')
+        this.lapin = this.add.image(Phaser.Math.Between(100,2060),1216,'lapin')
         this.lapin.setScale(0.11)
         this.lapin.visible=false
-        this.mouton = this.add.image(Phaser.Math.Between(100,1131),1146,'mouton')
+        this.mouton = this.add.image(Phaser.Math.Between(100,2060),1146,'mouton')
         this.mouton.setScale(0.22)
         this.mouton.visible=false
-        this.oie = this.add.image(Phaser.Math.Between(100,1131),1154,'oie')
+        this.oie = this.add.image(Phaser.Math.Between(100,2060),1154,'oie')
         this.oie.setScale(0.18)
         this.oie.visible=false
-        this.vache = this.add.image(Phaser.Math.Between(100,1131),1127,'vache')
+        this.vache = this.add.image(Phaser.Math.Between(100,2060),1127,'vache')
         this.vache.setScale(0.46)
         this.vache.visible=false
 
@@ -368,7 +368,7 @@ class Tableau1 extends Phaser.Scene{
         else
         {
             animal.visible=false
-            animal.setPosition(Phaser.Math.Between(100,1180),this.postPosY,)
+            animal.setPosition(Phaser.Math.Between(100,2060),this.postPosY,)
         }
     }
 
